@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz One&display=swap');
+
+
+
+
+body{
+    font-family: Oswald, serif;
+    background: linear-gradient(270deg, #3B00B5 0%, rgba(214, 0, 189, 0.55) 82%);
+
+}
+p{
+    color: white;
+}
+.nav-link{
+color: aliceblue;
+}
+.navbar-nav .nav-link.active{
+    
+    color: rgb(121, 0, 221);
+}
+.container-fluid .navbar-brand{
+color: #00ffff;
+} 
+.navbar-brand img{
+    width: 60px;
+}
+.navbar-toggler{
+    background-color:white;
+    
+}
+.sidebar>p>a{
+    color: rgb(100, 3, 3);
+    text-decoration: none;
+}
+.sidebar{
+    color: rgb(253, 253, 253);
+    
+}
+
+.card{
+    background: linear-gradient(180deg, #3B00B5 29%, rgba(214, 0, 189, 0.55) 100%);
+    color: white;
+}
+.footer-text {
+    color: rgb(254, 254, 254);
+    
+    
+}
+@media(max-width:755px){
+    .carousel-indicators{
+        display: none;
+    }
+
+}
+.slide-text{
+    color: rgb(0, 22, 101);
+margin: auto auto;
+
+}
+footer{
+    background-color: rgb(50, 50, 50);
+    margin-bottom: 0 ;
+    padding: 0;
+
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner-fluid-td{
+    bottom: 0;
+}
+.phone-anim{
+    animation: phone 2s ease 1s infinite normal none;
+}
+
+@keyframes phone {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
